@@ -15,6 +15,8 @@ const di = awilix.createContainer();
 di.loadModules([
     'src/models/db.js',
     'src/config/**/*.js',
+    'src/utils/**/*.js',
+    'src/middlewares/**/*.js',
 ], {
     formatName: 'camelCase',
     registrationOptions: {
