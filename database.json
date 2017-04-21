@@ -2,8 +2,8 @@
   "development": {
     "username": "test",
     "password": "test",
-    "database": "bot_dev",
-    "host": "dockerhost",
+    "database": "project_dev",
+    "host": "localhost",
     "dialect": "postgres",
     "logging": false,
     "native": false,
@@ -12,8 +12,8 @@
   "test": {
     "username": "test",
     "password": "test",
-    "database": "bot_test",
-    "host": "dockerhost",
+    "database": "project_test",
+    "host": "localhost",
     "dialect": "postgres",
     "logging": false
   },
